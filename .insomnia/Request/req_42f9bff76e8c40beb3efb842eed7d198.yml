@@ -1,0 +1,63 @@
+_id: req_42f9bff76e8c40beb3efb842eed7d198
+type: Request
+parentId: fld_e7995e043c654feabb4c8302fefc19a2
+modified: 1653548496740
+created: 1653546768879
+url: https://s1apiv2php8.rapidfunnel.com/achievement
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_dfed5f26ba7c4c328895cb0b787231f7
+      name: type
+      value: "2"
+      description: ""
+    - id: pair_199f5e0d9f1940e7ab4e0711cb0b88f5
+      name: activity
+      value: "2"
+      description: ""
+    - id: pair_21ada6362cc341bb83daa01752befec7
+      name: period
+      value: "1"
+      description: ""
+    - id: pair_64c59cca0260474c96de0c93102d845f
+      name: goal
+      value: "7"
+      description: ""
+    - id: pair_d041ab33352747e3b7026317372d6e85
+      name: allGroupSelected
+      value: "1"
+      description: ""
+    - id: pair_1e6f05aefc73449cb55e4b064791854d
+      name: description
+      value: xyz
+      description: ""
+    - id: pair_6b6c9e357f1941a683ce8a1e58a4c7e3
+      name: image
+      value: Streaks-Ivy-inv.png
+      description: ""
+parameters: []
+headers:
+  - id: pair_9854f78604894e5fa2f3524353e2d092
+    name: Authorization
+    value: '"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NTM1NDY4NTcsImp0aSI6Ik5URXhaREJsTURRd1pqTmhNV1V5TVRreFpXRXlOR05tT0RJM056Qm1aVFl5T0dWbU5UUTFNemxqWTJOaE9XWTBNRGxqWmpNMU56UXhZV1kwTVdFMk9RPT0iLCJpc3MiOiJodHRwczpcL1wvczF0ZXN0LnJhcGlkZnVubmVsLmNvbSIsIm5iZiI6MTY1MzU0Njg2NywiZXhwIjoxNjUzNTU1ODY3LCJkYXRhIjp7InVzZXJJZCI6IjQ3MjkzIiwiYWNjZXNzVG9rZW4iOiI0ZDdmNmVjYjk4OTA5ODI0NjZhNTQwMzkwMmUzNDI1YiJ9fQ.yH94FKuSMa1YfrNJpxeGh2xvBlL--rH9Dr-oyVeQXMtnQxLnGohBw-S01ds-Gr6GRPLcmLmxTs0wBbrtek9aow"'
+    description: ""
+    disabled: false
+  - id: pair_bfc05c17b95f4a378adb29efabe540ba
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_fa4683f3cb874de997c6b7aa95f910e6
+authentication: {}
+metaSortKey: -1653546768879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
