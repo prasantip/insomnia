@@ -34,3 +34,17 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          ls -la
+
+  artifact:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Echo artifact
+        run: |
+          echo Artifact!
+          ls -la
+      
+    
